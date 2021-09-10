@@ -36,6 +36,8 @@ app.get('/', async (req, res) => {
   res.send(cards);
 })
 
+console.log("bbbbbbbbbbbbbbbbbbbb");
+
 
 app.post('/', async (req, res) => {
   const newCard = new Card(req.body)
